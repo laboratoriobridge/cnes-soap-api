@@ -1,4 +1,4 @@
-package br.ufsc.bridge.cnes.soap.profissioanal;
+package br.ufsc.bridge.cnes.soap.profissional;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

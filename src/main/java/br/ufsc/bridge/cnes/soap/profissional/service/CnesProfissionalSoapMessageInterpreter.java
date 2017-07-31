@@ -1,10 +1,10 @@
-package br.ufsc.bridge.cnes.soap.profissioanal.service;
+package br.ufsc.bridge.cnes.soap.profissional.service;
 
 import javax.xml.xpath.XPathExpressionException;
 
 import org.w3c.dom.Document;
 
-import br.ufsc.bridge.cnes.soap.profissioanal.CnesResponseConsultarProfissionalSaude;
+import br.ufsc.bridge.cnes.soap.profissional.CnesResponseConsultarProfissionalSaude;
 import br.ufsc.bridge.soap.http.SOAPMessageInterpreter;
 import br.ufsc.bridge.soap.http.SoapCredential;
 import br.ufsc.bridge.soap.http.exception.SoapReadMessageException;

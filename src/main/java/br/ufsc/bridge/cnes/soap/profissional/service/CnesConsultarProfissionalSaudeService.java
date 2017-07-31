@@ -1,9 +1,9 @@
-package br.ufsc.bridge.cnes.soap.profissioanal.service;
+package br.ufsc.bridge.cnes.soap.profissional.service;
 
 import java.net.MalformedURLException;
 
-import br.ufsc.bridge.cnes.soap.profissioanal.CnesRequestConsultarProfissionalSaude;
-import br.ufsc.bridge.cnes.soap.profissioanal.CnesResponseConsultarProfissionalSaude;
+import br.ufsc.bridge.cnes.soap.profissional.CnesRequestConsultarProfissionalSaude;
+import br.ufsc.bridge.cnes.soap.profissional.CnesResponseConsultarProfissionalSaude;
 import br.ufsc.bridge.soap.http.SoapCredential;
 import br.ufsc.bridge.soap.http.SoapHttpClient;
 import br.ufsc.bridge.soap.http.exception.SoapCreateMessageException;
