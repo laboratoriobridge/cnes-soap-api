@@ -31,6 +31,8 @@ public class CnesEstabelecimentoSoapMessageInterpreter extends SOAPMessageInterp
 			unidade.setNumeroLogradouro(xPathEndereco.getString("./numero"));
 			unidade.setSiglaUf(xPathEndereco.getString("./Municipio//siglaUF"));
 			unidade.setDescricaoBairro(xPathEndereco.getString("./Bairro/descricaoBairro"));
+			unidade.setIbge(xPathEndereco.getString("./Municipio/codigoMunicipio"));
+			unidade.setNomeMunicipio(xPathEndereco.getString("./Municipio/nomeMunicipio"));
 		} catch (XPathExpressionException e) {
 			throw new SoapReadMessageException("Erro ao converter response soap do esbelecimento de saude", e);
 		}
