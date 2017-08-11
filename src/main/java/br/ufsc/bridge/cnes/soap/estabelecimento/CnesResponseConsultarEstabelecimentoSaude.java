@@ -28,8 +28,6 @@ public class CnesResponseConsultarEstabelecimentoSaude implements Serializable {
 
 	private String siglaUf;
 
-	private String ibge;
-
 	private String nomeMunicipio;
 
 	private TipoUnidade tipoUnidade;
