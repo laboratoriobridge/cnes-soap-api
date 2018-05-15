@@ -24,7 +24,7 @@
 		<dependency>
 			<groupId>br.ufsc.bridge</groupId>
 			<artifactId>soap-api</artifactId>
-			<version>0.0.1</version>
+			<version>0.0.3-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
