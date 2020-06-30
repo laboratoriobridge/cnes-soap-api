@@ -17,6 +17,7 @@ import br.ufsc.bridge.soap.http.exception.SoapCreateMessageException;
 import br.ufsc.bridge.soap.http.exception.SoapHttpConnectionException;
 import br.ufsc.bridge.soap.http.exception.SoapHttpResponseException;
 import br.ufsc.bridge.soap.http.exception.SoapReadMessageException;
+import br.ufsc.bridge.soap.jaxb.JAXBMessageBuilder;
 import br.ufsc.bridge.soap.xpath.XPathFactoryAssist;
 
 public class CnesConsultarProfissionalSaudeService {
@@ -24,7 +25,7 @@ public class CnesConsultarProfissionalSaudeService {
 	private SoapMessageBuilder messageBuilder;
 
 	public CnesConsultarProfissionalSaudeService() throws MalformedURLException {
-		this.messageBuilder = new SoapMessageBuilder(new SoapCredential("CNES.PUBLICO", "cnes#2015public"));
+		this.messageBuilder = new JAXBMessageBuilder(new SoapCredential("CNES.PUBLICO", "cnes#2015public"));
 	}
 
 	public CnesResponseConsultarProfissionalSaude consultar(String cns)
